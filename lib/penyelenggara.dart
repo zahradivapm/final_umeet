@@ -38,27 +38,43 @@ class PenyelenggaraPage extends StatelessWidget {
                 children: [
                   OrganizerItem(
                     imagePath: 'assets/images/himsi-logo.png',
-                    name: 'Himpunan Mahasiswa Sistem Informasi',
+                    name: 'Himpunan Mahasiswa Sistem Informasi Fasilkom Unsri',
                   ),
                   OrganizerItem(
                     imagePath: 'assets/images/bem.jpg',
-                    name: 'Badan Eksekutif Mahasiswa',
+                    name: 'Badan Eksekutif Mahasiswa Fasilkom Unsri',
                   ),
                   OrganizerItem(
                     imagePath: 'assets/images/hmif.jpg',
-                    name: 'Himpunan Mahasiswa Informatika',
+                    name: 'Himpunan Mahasiswa Informatika Fasilkom Unsri',
                   ),
                   OrganizerItem(
                     imagePath: 'assets/images/intel.jpg',
-                    name: 'Intel Committee',
+                    name: 'BO Intel Fasilkom Unsri',
                   ),
                   OrganizerItem(
                     imagePath: 'assets/images/fasco.jpg',
-                    name: 'Fasco Community',
+                    name: 'BO Fasco Fasilkom Unsri',
                   ),
                   OrganizerItem(
                     imagePath: 'assets/images/bgf.jpg',
-                    name: 'Business Growth Forum',
+                    name: 'Bujang Gadis Fasilkom Unsri',
+                  ),
+                  OrganizerItem(
+                    imagePath: 'assets/images/isport.jpg',
+                    name: 'Ilkom Sport Fasilkom Unsri',
+                  ),
+                  OrganizerItem(
+                    imagePath: 'assets/images/wifi.jpg',
+                    name: 'LDF Wifi Fasilkom Unsri',
+                  ),
+                  OrganizerItem(
+                    imagePath: 'assets/images/dpmkm.jpg',
+                    name: 'Dewan Perwakilan Mahasiswa Fasilkom Unsri',
+                  ),
+                  OrganizerItem(
+                    imagePath: 'assets/images/himdiko.jpg',
+                    name: 'Himpunan Mahasiswa Diploma Komputer Fasilkom Unsri',
                   ),
                 ],
               ),

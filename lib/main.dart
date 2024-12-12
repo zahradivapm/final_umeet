@@ -145,13 +145,23 @@ class _HomePageState extends State<HomePage> {
                           Icon(Ionicons.person_outline,
                               size: 24,
                               color: Colors.yellow), // Ikon grup di kiri
-                          SizedBox(width: 8), // Jarak antara ikon dan teks
-                          Text(
-                            '10 Penyelenggara',
-                            style: TextStyle(
-                                fontSize: 14,
-                                fontWeight: FontWeight.bold,
-                                fontFamily: 'outfit'),
+                          SizedBox(width: 8),
+                          GestureDetector(
+                            onTap: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => PenyelenggaraPage()),
+                              );
+                            },
+                            // Jarak antara ikon dan teks
+                            child: Text(
+                              '10 Penyelenggara',
+                              style: TextStyle(
+                                  fontSize: 14,
+                                  fontWeight: FontWeight.bold,
+                                  fontFamily: 'outfit'),
+                            ),
                           ),
                         ],
                       ),
@@ -225,7 +235,7 @@ class _HomePageState extends State<HomePage> {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                            builder: (context) => AccountScreen()),
+                            builder: (context) => EventTerdaftar()),
                       );
                     },
                     child: Text('Sedang Diikuti'),
