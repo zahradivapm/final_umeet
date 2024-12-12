@@ -1,0 +1,107 @@
+name: umeet
+description: "A new Flutter project."
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  table_calendar: ^3.0.2
+  ionicons: ^0.1.2
+  cupertino_icons: ^1.0.6
+  flutter_rating_bar: ^4.0.0
+  dio: ^5.2.1
+  permission_handler: ^11.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/background.jpg
+    - assets/images/User_image.jpg
+    - assets/images/element(1).png
+    - assets/images/background1.png
+    - assets/images/box1.png
+    - assets/images/user1.png
+    - assets/images/user2.png
+    - assets/images/user3.png
+    - assets/images/user4.png
+    - assets/images/himsi-logo.png
+    - assets/images/hmif.jpg
+    - assets/images/intel.jpg
+    - assets/images/bem.jpg
+    - assets/images/event1.png
+    - assets/images/event2.jpg
+    - assets/images/foto3.png
+    - assets/images/foto4.png
+    - assets/images/event3.png
+    - assets/images/event4.png
+    - assets/images/event5.png
+    - assets/images/menu.png
+    - assets/images/grup.png
+    - assets/images/Pamflet1.png
+    - assets/images/pamflet2.jpg
+    - assets/images/pamflet3.jpg
+    - assets/images/logo.png
+    - assets/images/loginbg3.png
+    - assets/images/Profile.png
+    - assets/images/logout.png
+    - assets/images/arrowback.png
+    - assets/images/notification.png
+    - assets/images/background.png
+    - assets/images/bantuan.png
+    - assets/images/Bell_light.png
+    - assets/images/arrownext.png
+    - assets/images/akunsaya.png
+    - assets/images/tentang.png
+    - assets/images/frame1.png
+    - assets/images/frame2.png
+    - assets/images/frame3.png
+    - assets/images/frame4.png
+    - assets/images/frame5.png
+    - assets/images/frame6.png
+    - assets/images/acara1.png
+    - assets/images/acara2.png
+    - assets/images/acara3.png
+    - assets/images/daftarberhasil.png
+    - assets/images/event8.png
+    - assets/images/formimage.png  
+    - assets/images/sifest1.png 
+    - assets/images/sifest2.png 
+    - assets/images/sifest3.png 
+    - assets/images/pertamina1.jpeg
+    - assets/images/1frame.png
+    - assets/images/userprofile.png
+    - assets/images/staffahli.jpeg
+    - assets/images/oprecintel1.png
+    - assets/images/iffest.jpg
+    - assets/images/sertifikat.png
+    - assets/images/sertifikat2.png
+    - assets/images/sertifikat3.png
+    - assets/images/sertifikatsifest.jpeg
+    - assets/images/fasco.jpg
+    - assets/images/bgf.jpg
+
+
+   
+
+  fonts:
+    - family: outfit
+      fonts:
+        - asset: assets/fonts/Outfit-Regular.ttf
+    - family : poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+  
+
+    
+
